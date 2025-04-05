@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "web-spider",
+  "version": "1.0.0",
+  "description": "Web spider built with Cloudflare Workers utilizing HTMLRewriter.",
+  "main": "index.js",
+  "author": "wxd",
+  "license": "MIT"
+}
