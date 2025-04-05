@@ -5,20 +5,18 @@ export default `<!doctype html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Web Spider · By Adam Schwartz · Powered by Cloudflare Workers®</title>
+    <title>Web Spider · Powered by Cloudflare Workers®</title>
 
     <meta name="description" content="A simple web Spider powered by Cloudflare Workers®.">
     <meta name="keywords" content="Web Spider, screen Spider, Spider, Cloudflare Workers®, app">
-    <meta name="author" content="Adam Schwartz">
-    <meta name="generator" content="Adam Schwartz">
+    <meta name="author" content="wxd">
+    <meta name="generator" content="wxd">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Spider">
     <meta property="og:description" content="A simple web Spider powered by Cloudflare Workers®.">
     <meta property="og:url" content="https://web.Spider.workers.dev">
 
-    <meta name="twitter:site" content="@adamfschwartz">
-    <meta name="twitter:creator" content="@adamfschwartz">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Web Spider">
     <meta name="twitter:description" content="A simple web Spider powered by Cloudflare Workers®.">
@@ -362,7 +360,7 @@ export default `<!doctype html>
         <div class="Dialog--content">
           <p>Web Spider makes it effortless to scrape websites. Just provide a URL and CSS selector and it will return JSON containing the text contents of the matching elements.</p>
 
-          <p>Built by <a class="Link" href="https://adamschwartz.co" target="_blank" rel="noopener">Adam Schwartz</a> using <a class="Link" href="https://workers.cloudflare.com" target="_blank" rel="noopener">Cloudflare Workers</a>, open-source and available on <a class="Link" href="https://github.com/adamschwartz/web.scraper.workers.dev" target="_blank" rel="noopener">GitHub</a>.</p>
+
         </div>
 
         <div class="Dialog--actions">
