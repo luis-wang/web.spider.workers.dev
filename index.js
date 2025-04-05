@@ -49,14 +49,17 @@ async function handleAPIRequest({ url, selector, attr, spaced, pretty }) {
   try {
     if (selector === 'all') {
       result = await scraper.querySelector(selector).getRawHtml()
+      result['branch'] = '1'
     }
 
     else if (!attr) {
       result = await scraper.querySelector(selector).getText({ spaced })
+      result['branch'] = '2'
     } 
     
     else {
       result = await scraper.querySelector(selector).getAttribute(attr)
+      result['branch'] = '3'
     }
 
   } catch (error) {
