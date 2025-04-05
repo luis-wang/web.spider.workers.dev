@@ -29,6 +29,15 @@ class Scraper {
     return this
   }
 
+  async getRawHtml() {
+    const transformed = this.rewriter.transform(this.response)
+
+    const buffer = await transformed.arrayBuffer()
+    const decoder = new TextDecoder('utf-8')
+    const raw = decoder.decode(buffer)
+    return {'all': raw}
+  }
+
   async getText({ spaced }) {
     const matches = {}
     const selectors = new Set(this.selector.split(',').map(s => s.trim()))

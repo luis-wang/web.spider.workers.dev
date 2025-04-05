@@ -47,9 +47,15 @@ async function handleAPIRequest({ url, selector, attr, spaced, pretty }) {
   }
 
   try {
-    if (!attr) {
+    if (selector === 'all') {
+      result = await scraper.getRawHtml()
+    }
+
+    else if (!attr) {
       result = await scraper.querySelector(selector).getText({ spaced })
-    } else {
+    } 
+    
+    else {
       result = await scraper.querySelector(selector).getAttribute(attr)
     }
 

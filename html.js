@@ -313,7 +313,7 @@ export default `<!doctype html>
 
             <div class="FormField" show-if-scrape="attr" is-hidden>
               <div class="FormField--text">
-                <label class="FormField--label" for="selector">Attribute</label>
+                <label class="FormField--label" for="selector">属性</label>
               </div>
               <input class="Input" is-pristine id="attr" type="text" name="attr" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
             </div>
@@ -346,7 +346,7 @@ export default `<!doctype html>
         <h2 class="Dialog--title" id="dialog-title">About</h2>
 
         <div class="Dialog--content">
-          <p>Web Scraper makes it effortless to scrape websites. Just provide a URL and CSS selector and it will return JSON containing the text contents of the matching elements.</p>
+          <p>Web Spider makes it effortless to scrape websites. Just provide a URL and CSS selector and it will return JSON containing the text contents of the matching elements.</p>
 
           <p>Built by <a class="Link" href="https://adamschwartz.co" target="_blank" rel="noopener">Adam Schwartz</a> using <a class="Link" href="https://workers.cloudflare.com" target="_blank" rel="noopener">Cloudflare Workers</a>, open-source and available on <a class="Link" href="https://github.com/adamschwartz/web.scraper.workers.dev" target="_blank" rel="noopener">GitHub</a>.</p>
         </div>
