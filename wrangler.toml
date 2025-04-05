@@ -1,4 +1,4 @@
-name = "web"
+name = "web-spider"
 account_id = "845c45e08630263e71fff8b5d24aa4fb" # scraper.workers.dev
 type = "webpack"
 workers_dev = true
