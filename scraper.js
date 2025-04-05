@@ -35,7 +35,7 @@ class Scraper {
     const buffer = await transformed.arrayBuffer()
     const decoder = new TextDecoder('utf-8')
     const raw = decoder.decode(buffer)
-    return {'all': raw}
+    return {'raw': raw}
   }
 
   async getText({ spaced }) {
