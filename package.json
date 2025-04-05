@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "web-scraper",
+  "name": "web-spider",
   "version": "1.0.0",
-  "description": "Web scraper built with Cloudflare Workers utilizing HTMLRewriter.",
+  "description": "Web spider built with Cloudflare Workers utilizing HTMLRewriter.",
   "main": "index.js",
-  "author": "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
+  "author": "",
   "license": "MIT"
 }
