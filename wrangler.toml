@@ -3,4 +3,3 @@ account_id = "845c45e08630263e71fff8b5d24aa4fb"
 type = "webpack"
 workers_dev = true
 compatibility_date = "2025-04-05"
-main = "index.js"
