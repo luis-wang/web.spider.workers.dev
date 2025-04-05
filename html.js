@@ -307,8 +307,7 @@ export default `<!doctype html>
 
             <div class="FormField" show-if-scrape="text">
               <div class="Checkbox">
-                // <input class="Checkbox--input" type="checkbox" name="spaced" id="spaced"/>
-                // <label class="Checkbox--label" for="spaced">Add a space between children of matched nodes</label>
+
               </div>
             </div>
 
@@ -322,7 +321,7 @@ export default `<!doctype html>
             <div class="FormField">
               <div class="Checkbox">
                 <input class="Checkbox--input" type="checkbox" name="pretty" id="pretty" checked/>
-                <label class="Checkbox--label" for="pretty">Prettify the JSON output</label>
+                <label class="Checkbox--label" for="pretty">美观显示Json</label>
               </div>
             </div>
           </form>
@@ -330,8 +329,8 @@ export default `<!doctype html>
 
         <div class="Panel--bottom">
           <div class="Row">
-            <button class="Button Button-is-primary" type="submit" form="form"><span class="desktop-only">Update preview</span><span class="mobile-only">Scrape</span></button>
-            <a data-js-permalink href="https://web.scraper.workers.dev" class="Button Button-is-bordered" type="button">Permalink</a>
+            <button class="Button Button-is-primary" type="submit" form="form"><span class="desktop-only">更新预览</span><span class="mobile-only">Scrape</span></button>
+            <a data-js-permalink href="https://web.scraper.workers.dev" class="Button Button-is-bordered" type="button">新标签显示</a>
           </div>
         </div>
       </div>
