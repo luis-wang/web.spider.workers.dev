@@ -287,7 +287,7 @@ export default `<!doctype html>
 
             <div class="FormField">
               <div class="FormField--text">
-                <label class="FormField--label" for="selector">选择器</label>
+                <label class="FormField--label" for="selector">选择器 (输入"html"显示全网页文本内容)</label>
               </div>
               <input class="Input" is-pristine id="selector" type="text" name="selector" pattern="(?:\\*|(?:[#.]?[a-zA-Z0-9_-])+)(?:\\[(?:\\S.*)=(?:\\S.*)\\])?(?::\\S*)?(?:(?:\\s+)?(?:,|>)?(?:\\s+)?(?:\\*|(?:\\.?[a-zA-Z0-9_-])+)(?:\\[(?:\\S.*)~?\\^?=(?:\\S.*)\\])?(?::\\S*)?)*" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" required />
             </div>
